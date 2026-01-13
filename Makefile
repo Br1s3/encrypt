@@ -18,5 +18,11 @@ encrypt: encrypt.c libec.h
 
 
 clean:
+	$(RM) encrypt.c.crypted
+	$(RM) decrypt.c.crypted
+	$(RM) libec.h.crypted
+
+clean_all: clean
 	$(RM) encrypt
 	$(RM) decrypt
+	$(RM) libec
