@@ -55,12 +55,14 @@ $ > 7d bc a0 2f b8 f3 b7 f9 6a f0 51 dd ab 6e 8f f9 03 42 29 48 0a eb 00 96 04 a
 $ decrypt (All the mess and press Crtl-D)
 $ > Hello world
 ```
+
 This is done this type of parameter:
 - NBO    = NB_OCTET=1
 - PUIENC = PUI_ENCRYPT=2
 - NBC    = NB_CLEF=2
 
 ## Beter utilisation
+
 ```console
 $ ./encrypt > code
 $ > Hello world (press Crtl-D to escape)
@@ -69,8 +71,16 @@ $ > Hello world
 ```
 
 ## Best utilisation
+
 ```console
 $ ./encrypt < encrypt.c > code
 $ ./decrypt < code
 $ > ...
+```
+
+## To get it anywhere
+
+```sh
+$ sudo cp encrypt /bin
+$ sudo cp decrypt /bin
 ```
