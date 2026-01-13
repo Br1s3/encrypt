@@ -11,10 +11,10 @@ all: encrypt decrypt
 
 
 decrypt: decrypt.c libec.h
-	$(CC) $< -o $@ $(CFLAGS)
+	$(CC) $< -o $@ -DPROG2 $(CFLAGS)
 
 encrypt: encrypt.c libec.h
-	$(CC) $< -o $@ $(CFLAGS)
+	$(CC) $< -o $@ -DPROG2 $(CFLAGS)
 
 
 clean:
