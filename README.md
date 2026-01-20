@@ -111,7 +111,10 @@ The results:
 
 [![1 byte 8 times redondant with 10 different keys](./picture/1oct-8pow-10key.png)](/picture)
 
-### Test no°2
+We can see at the end of the message a pattern repeating itself. This is expected because there is only 10 keys for 64 repeted letters.
+We can also see that it repeats roughly 6 times and this represent 64 divided by 10.
+
+#### Test no°2
 
 This is done by this combination of parameters:
 - NBO    = NB_OCTET=8
@@ -121,3 +124,5 @@ This is done by this combination of parameters:
 The results:
 
 [![8 bytes 1 times redondant with 10 different keys](./picture/8oct-1pow-10key.png)](/picture)
+
+We roughly see the same thing as above, except that the scale of the vertical axis is much greater than previously and this is due to the numbers of bytes on wich the information is encoded
