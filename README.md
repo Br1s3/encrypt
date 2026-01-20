@@ -1,4 +1,6 @@
-# This is a simple (or not) encryption and decryption programs
+# Encryption and decryption programs
+
+This is a simple (or not) encryption and decryption programs
 
 
 # Ready to start
