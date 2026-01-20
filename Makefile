@@ -1,8 +1,8 @@
 CC = gcc
 RM = rm -rf
 
-NBO    = NB_OCTET=8
-PUIENC = PUI_ENCRYPT=10
+NBO    = NB_OCTET=4
+PUIENC = PUI_ENCRYPT=4
 NBC    = NB_CLEF=100
 # EPS    = EPSILON=0.75
 
