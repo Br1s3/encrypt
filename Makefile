@@ -1,22 +1,23 @@
 CC = gcc
 RM = rm -rf
 
-NBO    = NB_OCTET=2
-PUIENC = PUI_ENCRYPT=10
-NBC    = NB_CLEF=20
-# EPS    = EPSILON=0.75
-
-SPEFLAGS += 	\
--D$(NBO) 	\
--D$(PUIENC)	\
--D$(NBC)	\
-# -D$(EPS)
-
-
 CFLAGS += \
 -Wall \
 -Wextra
 
+
+NBO      = NB_BYTES=7
+REDBYTES = REDUNDANT_BYTES=8
+NBK      = NB_KEY=15
+SKEY     = SEEDKEY=\"Toy-case-exempl\"
+# EPS    = EPSILON=0.75
+
+SPEFLAGS += 	\
+-D$(NBO) 	\
+-D$(REDBYTES)	\
+-D$(NBK)	\
+-D$(SKEY)
+# -D$(EPS)
 
 
 .PHONY: all clean
