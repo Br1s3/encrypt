@@ -6,7 +6,7 @@ CFLAGS += \
 -Wextra
 
 
-NBO      = NB_BYTES=7
+NBO      = NB_BYTES=4
 REDBYTES = REDUNDANT_BYTES=8
 NBK      = NB_KEY=15
 SKEY     = SEEDKEY=\"Toy-case-exempl\"
