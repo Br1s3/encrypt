@@ -3,5 +3,6 @@ src
 decrypt.c
 encrypt.c
 libec.h
+seed_key.h
 ec.c
 ec.h
